@@ -13,5 +13,10 @@
   "angularCompilerOptions": {
     "genDir": ".",
     "debug": true
-  }
+  },
+    "exclude": [
+      "node_modules",
+      "typings/globals/core-js",
+      "typings/globals/node"
+    ]
 }   
